@@ -122,6 +122,7 @@ eg. let abc = 'abc';
 
 function sevenLoop() {
     for (let i = 0; i < 7; i++) {
+        const sym = '*'
       console.log(sym.repeat([i + 1]))
     };
   };
